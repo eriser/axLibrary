@@ -1,0 +1,45 @@
+﻿Build started 05/03/2013 3:10:15 PM.
+     1>Project "C:\axLib\axLib\axLib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\axLib.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\axLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\wxWidgets-2.8.12/include/msvc/wx" /I..\axLib\include /I..\axLib\include\msvc\wx /I..\axLib\include\lib\msvc\wx /I"C:\wxWidgets-2.8.12/lib/vc_lib/mswd" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D _MBCS /UWIN32 /U__WXMSW__ /U_WINDOWS /U_DEBUG /U__WXDEBUG__ /U_CONSOLE /U_USRDLL /U"AXLIB_DEBUG_MODE(1)" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt axDebug.cpp src\axButton.cpp src\axMultipleBitmap.cpp src\axToggle.cpp src\axTreeMenu.cpp
+     1>cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+         axTreeMenu.cpp
+         axToggle.cpp
+         axMultipleBitmap.cpp
+         axButton.cpp
+         axDebug.cpp
+         Generating Code...
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\wxWidgets-2.8.12/include/msvc/wx" /I..\axLib\include /I..\axLib\include\msvc\wx /I..\axLib\include\lib\msvc\wx /I"C:\wxWidgets-2.8.12/lib/vc_lib/mswd" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D _MBCS /UAXLIB_DEBUG_MODE /UWIN32 /U__WXMSW__ /U_WINDOWS /U_DEBUG /U__WXDEBUG__ /U_CONSOLE /U_USRDLL /U"AXLIB_DEBUG_MODE(1)" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\axScrollBar.cpp
+         axScrollBar.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\axLib\Debug\axLib.lib" gdiplus.lib wxmsw28d_core.lib wxbase28d.lib wxmsw28d_adv.lib wxmsw28d_html.lib wxbase28d_xml.lib wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib comctl32.lib rpcrt4.lib wsock32.lib odbc32.lib /LIBPATH:"C:\wxWidgets-2.8.12/lib/vc_lib" /NOLOGO Debug\axDebug.obj
+         Debug\axScrollBar.obj
+         Debug\axButton.obj
+         Debug\axMultipleBitmap.obj
+         Debug\axToggle.obj
+         Debug\axTreeMenu.obj
+     1>wxbase28d.lib(dummy.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>wxmsw28d_adv.lib(dummy.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>wxmsw28d_html.lib(dummy.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>wxbase28d_xml.lib(dummy.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>comctl32.lib(COMCTL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in gdiplus.lib(gdiplus.dll); second definition ignored
+     1>comctl32.lib(COMCTL32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>rpcrt4.lib(RPCRT4.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in gdiplus.lib(gdiplus.dll); second definition ignored
+     1>rpcrt4.lib(RPCRT4.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>wsock32.lib(WSOCK32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in gdiplus.lib(gdiplus.dll); second definition ignored
+     1>wsock32.lib(WSOCK32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>odbc32.lib(ODBC32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in gdiplus.lib(gdiplus.dll); second definition ignored
+     1>odbc32.lib(ODBC32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         axLib.vcxproj -> C:\axLib\Debug\axLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\axLib.unsuccessfulbuild".
+         Touching "Debug\axLib.lastbuildstate".
+     1>Done Building Project "C:\axLib\axLib\axLib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:19.19

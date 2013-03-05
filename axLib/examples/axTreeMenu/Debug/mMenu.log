@@ -1,0 +1,16 @@
+﻿Build started 22/02/2013 11:05:38 PM.
+     1>Project "C:\axLib\axLib\tests\axTreeMenu\mMenu.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\wxWidgets-2.8.12/include" /I"C:\wxWidgets-2.8.12/lib/vc_lib/mswd" /IC:\axLib/axLib/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D __WXMSW__ /D _WINDOWS /D _DEBUG /D __WXDEBUG__ /D _CONSOLE /D USE_GDIPLUS=1 /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\axLib\axLib\tests\axTreeMenu\Debug\mTreeMenu.exe" /NOLOGO /LIBPATH:"C:\wxWidgets-2.8.12/lib/vc_lib" /LIBPATH:C:\axLib/Debug axLib.lib gdiplus.lib wxmsw28d_core.lib wxmsw28d_aui.lib wxbase28d.lib wxmsw28d_adv.lib wxmsw28d_html.lib wxbase28d_xml.lib wxtiffd.lib wxjpegd.lib wxpngd.lib wxzlibd.lib wxregexd.lib wxexpatd.lib comctl32.lib rpcrt4.lib wsock32.lib odbc32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\mTreeMenu.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\axLib\axLib\tests\axTreeMenu\Debug\mTreeMenu.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\axLib\axLib\tests\axTreeMenu\Debug\mTreeMenu.lib" /MACHINE:X86 Debug\main.obj
+         LINK : C:\axLib\axLib\tests\axTreeMenu\Debug\mTreeMenu.exe not found or not built by the last incremental link; performing full link
+         mMenu.vcxproj -> C:\axLib\axLib\tests\axTreeMenu\Debug\mTreeMenu.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\axLib\axLib\tests\axTreeMenu\Debug\mTreeMenu.exe;#1" /manifest Debug\mTreeMenu.exe.intermediate.manifest
+     1>Done Building Project "C:\axLib\axLib\tests\axTreeMenu\mMenu.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.41

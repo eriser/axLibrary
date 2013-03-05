@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "axLib", "axLib\axLib.vcxproj", "{AAA0368F-F0A3-4ABB-B390-0669A7BA3546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA0368F-F0A3-4ABB-B390-0669A7BA3546}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AAA0368F-F0A3-4ABB-B390-0669A7BA3546}.Debug|Win32.Build.0 = Debug|Win32
+		{AAA0368F-F0A3-4ABB-B390-0669A7BA3546}.Release|Win32.ActiveCfg = Release|Win32
+		{AAA0368F-F0A3-4ABB-B390-0669A7BA3546}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
