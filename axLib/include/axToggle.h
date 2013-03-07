@@ -31,6 +31,8 @@ private:
 	axMultipleBitmap m_images;
 	wxBitmap currentImage, m_bgImage;
 	wxWindowID m_id;
+
+	wxColor bgColor;
 	
 	bool m_toggleValue;
 

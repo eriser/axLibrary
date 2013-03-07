@@ -23,6 +23,8 @@ axToggle::axToggle(wxWindow* win, wxWindowID id, wxPoint pt, axMultipleBitmap& m
 	if(m_toggleValue)
 		 currentImage = m_images.getBitmap(3);
 	else currentImage = m_images.getBitmap(0);
+
+	bgColor = GetParent()->GetBackgroundColour();
 }
 
 void axToggle::OnMouseLeftUp(wxMouseEvent& event)
@@ -112,6 +114,10 @@ void axToggle::OnPaint(wxPaintEvent& event)
 
 	if(m_bgImage.IsOk())
 		dc.DrawBitmap(m_bgImage, 0, 0);
+   
+	dc.SetPen(wxPen(bgColor, 1, wxSOLID));
+    dc.SetBrush(wxBrush(bgColor));
+    dc.DrawRectangle(wxRect(0, 0, size.x, size.y));
 
 	dc.DrawBitmap(currentImage, wxPoint(0, 0));
 }

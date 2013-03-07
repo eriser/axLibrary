@@ -90,10 +90,9 @@ void axButton::OnPaint(wxPaintEvent& event)
 	if(m_bgImage.IsOk())
 		dc.DrawBitmap(m_bgImage, 0, 0);
     
-	dc.SetPen(wxPen(wxColor(0, 0, 0), 1, wxSOLID));
+	dc.SetPen(wxPen(bgColor, 1, wxSOLID));
     dc.SetBrush(wxBrush(bgColor));
     dc.DrawRectangle(wxRect(0, 0, size.x, size.y));
-
 
 	dc.DrawBitmap(currentImage, wxPoint(0, 0));
 }

@@ -1,8 +1,6 @@
-﻿Build started 05/03/2013 3:10:15 PM.
-     1>Project "C:\axLib\axLib\axLib.vcxproj" on node 2 (rebuild target(s)).
-     1>_PrepareForClean:
-         Deleting file "Debug\axLib.lastbuildstate".
-       InitializeBuildStatus:
+﻿Build started 07/03/2013 12:16:47 PM.
+     1>Project "C:\axLib\axLib\axLib.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
          Creating "Debug\axLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\wxWidgets-2.8.12/include/msvc/wx" /I..\axLib\include /I..\axLib\include\msvc\wx /I..\axLib\include\lib\msvc\wx /I"C:\wxWidgets-2.8.12/lib/vc_lib/mswd" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D _MBCS /UWIN32 /U__WXMSW__ /U_WINDOWS /U_DEBUG /U__WXDEBUG__ /U_CONSOLE /U_USRDLL /U"AXLIB_DEBUG_MODE(1)" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt axDebug.cpp src\axButton.cpp src\axMultipleBitmap.cpp src\axToggle.cpp src\axTreeMenu.cpp
@@ -38,8 +36,8 @@
        FinalizeBuildStatus:
          Deleting file "Debug\axLib.unsuccessfulbuild".
          Touching "Debug\axLib.lastbuildstate".
-     1>Done Building Project "C:\axLib\axLib\axLib.vcxproj" (rebuild target(s)).
+     1>Done Building Project "C:\axLib\axLib\axLib.vcxproj" (build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:19.19
+Time Elapsed 00:00:30.07
