@@ -1,9 +1,9 @@
 C:\AXLIB\AXLIB\DEBUG\AXBUTTON.OBJ
 C:\AXLIB\AXLIB\DEBUG\AXDEBUG.OBJ
-C:\axLib\axLib\Debug\axLib.vcxprojResolveAssemblyReference.cache
 C:\axLib\axLib\Debug\axLib.write.1.tlog
 C:\AXLIB\AXLIB\DEBUG\AXMULTIPLEBITMAP.OBJ
 C:\AXLIB\AXLIB\DEBUG\AXSCROLLBAR.OBJ
+C:\AXLIB\AXLIB\DEBUG\AXSLIDER.OBJ
 C:\AXLIB\AXLIB\DEBUG\AXTOGGLE.OBJ
 C:\AXLIB\AXLIB\DEBUG\AXTREEMENU.OBJ
 C:\axLib\axLib\Debug\cl.command.1.tlog
@@ -12,7 +12,6 @@ C:\axLib\axLib\Debug\CL.write.1.tlog
 C:\axLib\axLib\Debug\lib.command.1.tlog
 C:\axLib\axLib\Debug\Lib-link.read.1.tlog
 C:\axLib\axLib\Debug\Lib-link.write.1.tlog
-C:\AXLIB\AXLIB\DEBUG\MTOGGLEIMAGE.OBJ
 C:\axLib\axLib\Debug\vc100.idb
 C:\AXLIB\AXLIB\DEBUG\VC100.PDB
 C:\AXLIB\DEBUG\AXLIB.LIB

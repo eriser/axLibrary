@@ -80,6 +80,7 @@
     <ClInclude Include="include\axScrollBar.h" />
     <ClInclude Include="include\axButton.h" />
     <ClInclude Include="include\axMultipleBitmap.h" />
+    <ClInclude Include="include\axSlider.h" />
     <ClInclude Include="include\axToggle.h" />
     <ClInclude Include="include\axTreeMenu.h" />
   </ItemGroup>
@@ -90,6 +91,7 @@
     </ClCompile>
     <ClCompile Include="src\axButton.cpp" />
     <ClCompile Include="src\axMultipleBitmap.cpp" />
+    <ClCompile Include="src\axSlider.cpp" />
     <ClCompile Include="src\axToggle.cpp" />
     <ClCompile Include="src\axTreeMenu.cpp" />
   </ItemGroup>

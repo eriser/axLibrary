@@ -56,4 +56,6 @@ AX_TYPEDEF(PaintEvent);
 
 #include "axTreeMenu.h"
 
+#include "axSlider.h"
+
 #endif
