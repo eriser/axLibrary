@@ -15,6 +15,7 @@ public:
 	~axToggle(){}
 
 	void setBackgroundImage(wxBitmap& bmp);
+    void setToggleValue(bool value);
 	bool getToggleValue() const
 	{
 		return m_toggleValue;

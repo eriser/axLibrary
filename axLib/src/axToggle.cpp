@@ -27,6 +27,16 @@ axToggle::axToggle(wxWindow* win, wxWindowID id, wxPoint pt, axMultipleBitmap& m
 	bgColor = GetParent()->GetBackgroundColour();
 }
 
+void axToggle::setToggleValue(bool value)
+{
+    m_toggleValue = value;
+	if(m_toggleValue)
+		 currentImage = m_images.getBitmap(3);
+	else currentImage = m_images.getBitmap(0);
+    Refresh();
+
+}
+
 void axToggle::OnMouseLeftUp(wxMouseEvent& event)
 {
 	if(HasCapture())
