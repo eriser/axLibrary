@@ -34,6 +34,11 @@ axSlider::axSlider(wxWindow* win, const axSliderID& id, const axSliderData& data
 
 }
 
+double axSlider::getValue() const
+{
+    return m_value;
+}
+
 void axSlider::OnMouseLeftUp(wxMouseEvent& event)
 {
 	if(HasCapture())

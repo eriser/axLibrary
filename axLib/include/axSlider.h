@@ -35,6 +35,7 @@ public:
 			 double maxValue = 1);
 	~axSlider(){}
 
+    double getValue() const;
 	void setBackgroundImage(wxBitmap& bmp);
 
 private:
