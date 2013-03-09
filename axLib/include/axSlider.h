@@ -36,6 +36,7 @@ public:
 	~axSlider(){}
 
     double getValue() const;
+    void setValue(double val);
 	void setBackgroundImage(wxBitmap& bmp);
 
 private:
