@@ -34,6 +34,28 @@ axSlider::axSlider(wxWindow* win, const axSliderID& id, const axSliderData& data
 
 }
 
+double axSlider::getValue() const
+{
+    return m_value;
+}
+
+void axSlider::setValue(double val)
+{
+    m_sliderPos = this->GetSize().x * val;
+	m_imgPos = m_sliderPos - m_data.imgs.getImgSize().x * 0.5;
+		
+	//m_currentImage = m_data.imgs.getBitmap(2);
+	//m_currentSliderColor = m_data.sliderColorClicked;
+	//m_currentBgColor = m_data.bgColorClicked;
+
+	blockPosition();
+
+    m_value = val;
+
+    Refresh();
+
+}
+
 void axSlider::OnMouseLeftUp(wxMouseEvent& event)
 {
 	if(HasCapture())
