@@ -55,7 +55,7 @@
       <LinkLibraryDependencies>true</LinkLibraryDependencies>
     </ProjectReference>
     <Lib>
-      <AdditionalDependencies>gdiplus.lib;wxmsw28d_core.lib;wxbase28d.lib;wxmsw28d_adv.lib;wxmsw28d_html.lib;wxbase28d_xml.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>gdiplus.lib;wxmsw28d_core.lib;wxbase28d.lib;wxmsw28d_adv.lib;wxmsw28d_html.lib;wxbase28d_xml.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexd.lib;wxexpatd.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;wxmsw28d_richtext.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <Lib>
       <AdditionalLibraryDirectories>$(WXWIN28)/lib/vc_lib</AdditionalLibraryDirectories>
@@ -81,6 +81,7 @@
     <ClInclude Include="include\axButton.h" />
     <ClInclude Include="include\axMultipleBitmap.h" />
     <ClInclude Include="include\axSlider.h" />
+    <ClInclude Include="include\axTimeCtrl.h" />
     <ClInclude Include="include\axToggle.h" />
     <ClInclude Include="include\axTreeMenu.h" />
   </ItemGroup>
@@ -92,6 +93,7 @@
     <ClCompile Include="src\axButton.cpp" />
     <ClCompile Include="src\axMultipleBitmap.cpp" />
     <ClCompile Include="src\axSlider.cpp" />
+    <ClCompile Include="src\axTimeCtrl.cpp" />
     <ClCompile Include="src\axToggle.cpp" />
     <ClCompile Include="src\axTreeMenu.cpp" />
   </ItemGroup>

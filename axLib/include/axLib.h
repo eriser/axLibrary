@@ -8,6 +8,9 @@
 #include "wx/graphics.h"
 #include "wx/popupwin.h"
 #include "wx/dir.h"
+#include "wx/grid.h"
+#include "wx/generic/gridctrl.h"
+#include "wx/richtext/richtextbuffer.h"
 
 #define _EVENT_
 
@@ -57,5 +60,7 @@ AX_TYPEDEF(PaintEvent);
 #include "axTreeMenu.h"
 
 #include "axSlider.h"
+
+#include "axTimeCtrl.h"
 
 #endif
